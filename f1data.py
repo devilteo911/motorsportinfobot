@@ -66,6 +66,7 @@ def standings(bot, update,  pass_chat_data=True):
                     + 'Mancano ancora ' + str(remRounds)+ ' gare, per un totale di ' + str(totPuntiRim) +' punti in palio.'))
 
 
+#Function for constructor standings
 def constStandings(bot, update, pass_chat_data = True):
     chat_id = update.message.chat_id
     bot.sendMessage(chat_id, text = 'Classifica costruttori in arrivo')
